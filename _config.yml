@@ -107,9 +107,9 @@ author:
   location         : "대한민국 경기도"
   email            :
   links:
-#     - label: "Email"
-#       icon: "fas fa-fw fa-envelope-square"
-#        url: "gah12342395@mail.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+       url: "https://github.com/master1st"
     - label: "Website"
       icon: "fas fa-fw fa-link"
        url: "https://github.com/master1st"
