@@ -107,6 +107,7 @@ author:
   location         : "대한민국 경기도"
   email            :
   links:
+  
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
        url: "https://github.com/master1st"
@@ -120,7 +121,7 @@ author:
       icon: "fab fa-fw fa-instagram"
        url: "https://www.instagram.com/seok_h_9/"
 
-Site Footer
+# Site Footer
 footer:
   links:
     - label: "GitHub"
