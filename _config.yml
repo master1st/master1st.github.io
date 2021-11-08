@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-KO"
-title                    : "윤석현의 블로그"
+title                    : "윤석현님의 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "윤석현"
-description              : "An amazing website."
+name                     : "Yoon Seok Hyun"
+description              : "An amazing."
 url                      : "https://master1st.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -73,8 +73,9 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-yandex_site_verification :
 naver_site_verification  :
+yandex_site_verification :
+baidu_site_verification  :
 
 # Social Sharing
 twitter:
@@ -87,8 +88,8 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   :  Person or Organization (defaults to Person)
-  name                   :  If the user or organization name differs from the site's name
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -101,10 +102,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yoon Seok-hyun"
+  name             : "Yoon Seok Hyun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **Amazing** person."
-  location         : "대한민국 경기도"
+  bio              : "I am an **amazing** person."
+  location         : "대한민국 경기도 오산시"
   email            :
   links:
     - label: "Email"
@@ -126,15 +127,27 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
- Site Footer
+# Site Footer
 footer:
   links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/master1st"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/seok_h_9/"
+      # url:
 
 
 # Reading Files
@@ -275,3 +288,4 @@ defaults:
       comments: # true
       share: true
       related: true
+
